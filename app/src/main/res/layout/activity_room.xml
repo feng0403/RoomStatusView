@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/blank"
+            android:layout_width="@dimen/room_status_width"
+            android:layout_height="@dimen/room_status_height"
+            android:background="@drawable/bg_room_date" />
+
+        <com.feng.roomstatusview.view.MHorizontalScrollView
+            android:id="@+id/date_scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/room_status_height"
+            android:fadingEdge="none"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/room_status_height"
+                android:orientation="horizontal" />
+        </com.feng.roomstatusview.view.MHorizontalScrollView>
+    </LinearLayout>
+
+    <com.feng.roomstatusview.view.CustomListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+

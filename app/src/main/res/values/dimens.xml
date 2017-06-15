@@ -1,0 +1,32 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">12dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="account_top_margin">46dp</dimen>
+
+  <dimen name="text_larger">44sp</dimen>
+  <dimen name="text_large">22sp</dimen>
+  <dimen name="text_medium">18sp</dimen>
+  <dimen name="text_small">16sp</dimen>
+  <dimen name="stroke_width">1dp</dimen>
+  <dimen name="stroke_height">20dp</dimen>
+
+  <dimen name="room_status_height">55dp</dimen>
+  <dimen name="room_status_width">55dp</dimen>
+  <dimen name="button_min_height">48dp</dimen>
+  <dimen name="item_height">46dp</dimen>
+  <dimen name="button_left_right_padding">56dp</dimen>
+
+  <!--美团价格日历-->
+  <dimen name="hotelplus_text_size_day_number">16sp</dimen>
+  <dimen name="hotelplus_text_size_day_text">16sp</dimen>
+  <dimen name="hotelplus_text_size_day_text_small">14sp</dimen>
+
+  <dimen name="refresh_header_height_twitter">40dp</dimen>
+  <dimen name="load_more_footer_height_twitter">40dp</dimen>
+  <dimen name="load_more_footer_height_classic">40dp</dimen>
+  <dimen name="id_card_container_height">216dp</dimen>
+  <dimen name="id_card_width">320dp</dimen>
+  <dimen name="id_card_height">200dp</dimen>
+</resources>

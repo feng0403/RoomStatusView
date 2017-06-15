@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--主题色-->
+  <color name="color_primary">#F9F9F9</color>
+  <color name="color_primary_dark">#999999</color>
+  <color name="color_accent">#567ED2</color>
+  <color name="color_accent_dark">#3F51B5</color>
+  <color name="color_accent_red">#F5622E</color>
+
+  <!--文字颜色-->
+  <color name="text_primary">#333333</color>
+  <color name="text_secondary">#999999</color>
+  <color name="text_hint">#CCCCCC</color>
+  <color name="text_white">#FFFFFF</color>
+
+  <!--背景色-->
+  <color name="divider">#D8D8D8</color>
+  <color name="window_background">#F6FAFC</color>
+
+  <!--Button颜色-->
+  <color name="color_button_disabled">#CCCCCC</color>
+  <color name="color_button_disabled_dark">#999999</color>
+  <color name="color_button_pressed_ripple">@color/color_button_disabled</color>
+
+  <!--美团价格日历-->
+  <color name="hotelplus_grid_bg">#FFFFFFFF</color>
+  <color name="hotelplus_grid_border">#FFC6C6C6</color>
+
+  <color name="hotelplus_calendar_background">#FFFFFFFF</color>
+  <color name="hotelplus_calendar_title">#FFD8D8D8</color>
+
+  <color name="hotelplus_calendar_day_select">@color/color_accent</color>
+  <color name="hotelplus_calendar_day_select_range">#DDE5F6</color>
+  <color name="hotelplus_calendar_day_normal">#FFE5E5E5</color>
+
+  <color name="hotelplus_vertical_calendar_title">#FF333333</color>
+
+  <color name="hotelplus_calendar_day_date">#FF333333</color>
+  <color name="hotelplus_calendar_day_date_no_info">#FFCCCCCC</color>
+
+  <color name="hotelplus_calendar_week_sunday">@color/color_accent</color>
+  <color name="hotelplus_calendar_mounth_divider">@color/divider</color>
+  <color name="hotelplus_calendar_week_bar">#FFFAFAFA</color>
+  <color name="hotelplus_calendar_head_divider">@color/divider</color>
+
+  <color name="viewfinder_laser">#ffcc0000</color>
+  <color name="white">#ffffffff</color>
+  <color name="possible_result_points">#c0ffbd21</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_laser_green">#6ADF2A</color>
+  <color name="viewfinder_mask">#60000000</color>
+
+  <!-- 全黑-->
+  <color name="text_dark">#1B2336</color>
+  <!-- 50%黑-->
+  <color name="text_gray2">#801B2336</color>
+
+  <color name="aqua_haze">#EEF2FA</color>
+  <color name="bridesmaid">#FAEEED</color>
+
+  <color name="normal_check_out_room_fill">#ebebeb</color>
+  <color name="normal_check_out_room_stroke">#999999</color>
+
+</resources>

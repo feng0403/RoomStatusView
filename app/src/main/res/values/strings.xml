@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">接客</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reserve">办理预订</string>
+    <string name="checkin">办理入住</string>
+    <string name="mobile">手机号</string>
+    <string name="hint_mobile">请输入手机号</string>
+    <string name="name">姓名</string>
+    <string name="hint_name">请输入姓名</string>
+    <string name="id_card">身份证</string>
+    <string name="channel">渠道</string>
+    <string name="choose_channel">请选择渠道</string>
+    <string name="arrive_departure_date">入离日期</string>
+    <string name="checkin_room">入住房间</string>
+    <string name="hint_choose_room">请选择房间</string>
+    <string name="room_price">房费</string>
+    <string name="hint_room_price">请输入房费</string>
+    <string name="payment">收款方式</string>
+    <string name="deposit">押金</string>
+    <string name="hint_deposit">请输入押金</string>
+    <string name="add_order">新建订单</string>
+    <string name="check_order">查看订单</string>
+    <string name="reserved">已预订</string>
+    <string name="already_checkin">已入住</string>
+    <string name="canceled">已取消</string>
+    <string name="already_checkout">已退房</string>
+    <string name="err_wrong_mobile">手机号输入有误，请检查！</string>
+    <string name="err_empty_date">请选择入离日期！</string>
+    <string name="err_empty_room">请选择房间！</string>
+    <string name="complete">完成</string>
+    <string name="new_check_in_order_success">办理入住成功</string>
+    <string name="new_reserve_order_success">办理预订成功</string>
+    <string name="menu_order_scan">手动填写证件</string>
+    <string name="print">打印</string>
+    <string name="modify">修改</string>
+
+    <!--美团价格日历-->
+    <string name="hotelplus_day_price_tomorrow">明天</string>
+    <string name="hotelplus_today">今天</string>
+    <string name="ensure">确定</string>
+    <string name="order_source">订单来源</string>
+
+    <string name="msg_default_status_1">将身份证正面置于此区域内,并对其扫描边缘</string>
+    <string name="msg_default_status_2">扫描成功后，将自动填写姓名、证件信息</string>
+    <string name="msg_ocr_sample_data_error">身份证样本数据出错</string>
+
+    <string name="button_ok">确定</string>
+    <string name="msg_camera_framework_bug">很遗憾，Android 相机出现问题。你可能需要重启设备。</string>
+
+    <string name="room_remain" formatted="false">剩%s间</string>
+    <string name="room_and_type">房型房间</string>
+    <string name="err_empty_payment">请选择付款方式！</string>
+    <string name="err_empty_project">请选择收款科目！</string>
+    <string name="err_no_available_rooms">没有可用房间了～</string>
+    <string name="receivables">收款</string>
+    <string name="receivables_project">收款科目</string>
+    <string name="receivables_amount">收款金额</string>
+    <string name="hint_receivables_amount">请输入收款金额</string>
+    <string name="ensure_add_bill">确认收款</string>
+    <string name="canel_order">取消订单</string>
+    <string name="checkout">办理退房</string>
+    <string name="add_bill">收款项目</string>
+    <string name="hotel_manage">酒店管理</string>
+    <string name="menu_room_choose_date">选择时间</string>
+    <string name="no_data">没有房间</string>
+    <string name="room_start_date">开始时间</string>
+    <string name="room_ful">满房</string>
+    <string name="has_set_to">已设为</string>
+    <string name="clean_room">净房</string>
+    <string name="dirty_room">脏房</string>
+    <string name="account_manage">财务管理</string>
+    <string name="date_from_to_all_select" formatted="false">%s至%s%s支付%s收入</string>
+    <string name="date_from_to_all" formatted="false">%s至%s全部收入</string>
+    <string name="date_from_to_payment" formatted="false">%s至%s全部%s支付收入</string>
+    <string name="date_from_to_project" formatted="false">%s至%s全部%s收入</string>
+    <string name="total_account" formatted="false">￥%s</string>
+    <string name="receipt_account" formatted="false">+%s</string>
+    <string name="receipt">收款</string>
+    <string name="refund">退款</string>
+    <string name="date">日期</string>
+    <string name="project">科目</string>
+    <string name="money">金额</string>
+    <string name="type">方式</string>
+    <string name="trade_state">交易状态</string>
+    <string name="no_more_data">没有数据了</string>
+    <string name="load_more">加载更多</string>
+    <string name="menu_account_filter">筛选</string>
+    <string name="pop_date_from_to" formatted="false">%s至%s</string>
+    <string name="pay_type">支付方式</string>
+    <string name="pay_project">支付科目</string>
+    <string name="ok">完成</string>
+    <string name="reset">重置</string>
+    <string name="all">全部</string>
+    <string name="refund_detail">退款信息</string>
+    <string name="receive_detail">收款信息</string>
+    <string name="receivables_status">收款状态</string>
+    <string name="trade_id">交易单号</string>
+    <string name="trade_time">交易时间</string>
+    <string name="refund_amount">退款金额</string>
+    <string name="refund_channel">退款渠道</string>
+    <string name="refund_status">退款状态</string>
+    <string name="refund_reason">退款原因</string>
+    <string name="relate_order_info">关联订单信息</string>
+    <string name="relate_order_id">关联订单号</string>
+    <string name="checkin_time">入住时间</string>
+    <string name="trade_detail">交易详情</string>
+    <string name="dirty_room_reminder"><![CDATA[<font color=\'#F5622E\'> %s </font>当前为脏房，确定要办理入住？]]></string>
+    <string name="dirty_room_reminder_title">脏房提醒</string>
+    <string name="bill_reminder_title">账务提醒</string>
+    <string name="bill_reminder"><![CDATA[当前<font color=\'#F5622E\'> %s </font>金额为0，确定下单？]]></string>
+    <string name="repay">重新支付</string>
+    <string name="payed">已支付</string>
+    <string name="unpay">未支付</string>
+    <string name="merge_to_pay">合并付款</string>
+    <string name="cash_pay">现金支付</string>
+    <string name="cash_pay_reminder">所有未支付交易将以现金结账，请确认？</string>
+    <string name="view">查看</string>
+    <string name="pay">付款</string>
+    <string name="order_manage">订单管理</string>
+    <string name="menu_order_list_search">搜索</string>
+    <string name="order_list_search_hint">输入手机号、房间号、姓名</string>
+    <string name="no_order_now">当前没有订单产生哦~</string>
+    <string name="no_order_re_search">没有相关的订单，请重新搜索~</string>
+    <string name="date_reminder_title">入住日期提醒</string>
+    <string name="date_reminder">请注意，该订单入住时间为历史日期！</string>
+    <string name="err_wrong_date">入离时间选择有误，请重新选择～</string>
+    <string name="canel_order_reminder_title">取消订单</string>
+    <string name="canel_order_reminder">确认取消？</string>
+
+    <string-array name="orderListTitles">
+        <item>全部订单</item>
+        <item>今日预抵</item>
+        <item>今日预离</item>
+    </string-array>
+    <string name="menu_account_detail_filter">打印</string>
+    <string name="welcome_to_live_in">欢迎您入住</string>
+    <string name="checkin_person">入住人</string>
+    <string name="order_no">订单号</string>
+    <string name="trade_account">交易金额</string>
+    <string name="hotel_tel">前台电话</string>
+    <string name="meituan_solgan">美团一次，美一次</string>
+    <string name="amount">金额</string>
+    <string name="status">状态</string>
+    <string name="reason">原因</string>
+    <string name="print_time">打印时间</string>
+    <string name="photo_to_recognize">拍照识别</string>
+    <string name="rec_fail_retry">识别失败,请重试</string>
+    <string name="menu_account_pack_up">收起</string>
+    <string name="retry">重新加载</string>
+    <string name="no_trade_account">当前暂无交易详情</string>
+    <string name="continue_pay">继续支付</string>
+    <string name="err_no_available_payments">请先配置支付方式～</string>
+    <string name="err_no_available_channels">请先配置渠道信息～</string>
+    <string name="err_no_available_projects">请先配置收款科目～</string>
+    <string name="err_no_available_dates">没有可选择的日期了～</string>
+    <string name="save">保存</string>
+    <string name="hint_id_number">请输入身份证号</string>
+    <string name="err_wrong_id_number">身份证位数有误，请检查！</string>
+    <string name="opening_camera">正在为您开启摄像头,请稍后</string>
+    <string name="camera_ready">摄像头已开启</string>
+    <string name="camera_tip">请将身份证对其识别区四角进行拍照识别</string>
+    <string name="recognizing">正在识别</string>
+    <string name="sex">性别</string>
+    <string name="birthday">出生</string>
+    <string name="address">住址</string>
+    <string name="id_card_number">公民身份证号码</string>
+    <string name="nation">民族</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="organization">签发机关</string>
+    <string name="limit_time">有效期限</string>
+    <string name="no_more_order">没有更多订单了</string>
+
+    <string name="sat">六</string>
+    <string name="sun">日</string>
+    <string name="ctrip">携程</string>
+    <string name="meituan">美团</string>
+    <string name="guest_name_1">陈信函</string>
+    <string name="guest_name_2">刘小川</string>
+    <string name="guest_name_3">张鑫紫</string>
+    <string name="guest_name_4">李敏镐</string>
+    <string name="guest_name_5">陈恒志</string>
+    <string name="guest_name_6">杨玉林</string>
+</resources>
