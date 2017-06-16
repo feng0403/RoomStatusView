@@ -11,35 +11,38 @@ import android.widget.HorizontalScrollView;
  */
 public class MHorizontalScrollView extends HorizontalScrollView {
     private OnScrollChangeCallback changeCallback;
-    private GestureDetector detector;
+//    private GestureDetector detector;
 
     public MHorizontalScrollView(Context context) {
         super(context);
-        detector = new GestureDetector(context, new ScrollDetector());
+//        detector = new GestureDetector(context, new ScrollDetector());
     }
 
     public MHorizontalScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        detector = new GestureDetector(context, new ScrollDetector());
+//        detector = new GestureDetector(context, new ScrollDetector());
     }
 
     public MHorizontalScrollView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        detector = new GestureDetector(context, new ScrollDetector());
+//        detector = new GestureDetector(context, new ScrollDetector());
     }
 
     @Override
     protected void onScrollChanged(int l, int t, int oldL, int oldT) {
         super.onScrollChanged(l, t, oldL, oldT);
+
+        //setOnScrollChangeListener 这个方法 dded in API level 23
+        //所以需要写接口回调出去滑动的距离
         if (changeCallback != null) {
             changeCallback.onChange(l, t);
         }
     }
 
-    @Override
+   /* @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         return super.onInterceptTouchEvent(ev) || detector.onTouchEvent(ev);
-    }
+    }*/
 
     public void setChangeCallback(OnScrollChangeCallback changeCallback) {
         this.changeCallback = changeCallback;
